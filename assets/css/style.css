@@ -1,0 +1,43 @@
+
+body{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #777777;
+  font-size: 16px;
+  float: center
+  
+}
+
+#header{
+  background: white;
+  height: 10%;
+  float: center;
+  width: 960px
+}
+
+#nametag{
+  background-color: #4aaaa5;
+  font-size: 24px;
+  color: white;
+  float: left
+}
+
+#main{
+  width: 960px;
+  float: center;
+  background-color: #ffffff;
+  border-color: #dddddd;
+}
+
+#title{
+  color: #4aaaa5
+}
+
+#headshot{
+  float: left;
+  
+}
+
+#footer{
+  background-color: #666666;
+  color: white
+}
