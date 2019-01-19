@@ -5,7 +5,9 @@ body {
 	font-size: 16px;
 	line-height: 30px;
 	background-repeat: repeat;
-	background-image: url(../images/prism.png)
+	background-image: url(../images/prism.png);
+	padding-bottom: 60px;
+	
 }
 
 #nametag{
@@ -30,6 +32,7 @@ body {
 
 nav	{
 	float: right;
+	padding-right: 10px;
 }
 
 nav ul li:first-child a {
@@ -85,7 +88,7 @@ p {
 }
 
 .space{
-	width: 960px;
+	width: 1040px;
   margin: 0 auto;
   clear: both;
   overflow: hidden;
@@ -107,14 +110,29 @@ p {
 	vertical-align: middle;
   }
 
+	#pic1{
+		position: relative;
+		display: inline;
+	}
+
   .pic2{
-	  padding: 0 40px;
+		padding: 0 40px;
+		position: relative;
   }
 
   .pic4{
 	  padding: 0 40px;
   }
 
+	a#pic1
+	h3{
+		background-color: #4aaaa5;
+    position: absolute;
+    bottom: -80px;
+    width: 98%;
+    text-align: center;
+		color: white;
+	}
 
 /* Contact CSS taken and changed from W3 Schools */
 input[type=text], select, textarea {
@@ -152,5 +170,6 @@ input[type=text], select, textarea {
   color: white;
 	text-align: center;
 	border-top: 8px solid #4aaaa5;
-	line-height: 90px;
+	line-height: 30px;
+	font-size: 8px;
 }
