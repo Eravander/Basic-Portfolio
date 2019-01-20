@@ -115,13 +115,21 @@ p {
 		display: inline;
 	}
 
-  .pic2{
+  #pic2{
 		padding: 0 40px;
 		position: relative;
+		display: inline;
   }
 
-  .pic4{
-	  padding: 0 40px;
+	#pic3{
+		position: relative;
+		display: inline;
+	}
+
+  #pic4{
+		padding: 0 40px;
+		position: relative;
+		display: inline;
   }
 
 	a#pic1
@@ -133,6 +141,36 @@ p {
     text-align: center;
 		color: white;
 	}
+
+	/* a#pic2
+	h3{
+		background-color: #4aaaa5;
+    position: absolute;
+    bottom: -80px;
+    width: 98%;
+    text-align: center;
+		color: white;
+	} */
+
+	a#pic3
+	h3{
+		background-color: #4aaaa5;
+    position: absolute;
+    bottom: -80px;
+    width: 98%;
+    text-align: center;
+		color: white;
+	}
+
+	/* a#pic4
+	h3{
+		background-color: #4aaaa5;
+    position: absolute;
+    bottom: -80px;
+    width: 98%;
+    text-align: center;
+		color: white;
+	} */
 
 /* Contact CSS taken and changed from W3 Schools */
 input[type=text], select, textarea {
