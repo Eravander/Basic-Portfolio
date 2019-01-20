@@ -10,7 +10,7 @@ body {
 	
 }
 
-#nametag{
+#nametag {
 	clear: both;
 	float: left;
 	background-color: #4aaaa5;
@@ -23,7 +23,7 @@ body {
 	text-decoration: none;
 }
 
-#header{
+#header {
 	background-color: #fff;
 	margin-bottom: 40px;
 	border-bottom: 2px solid #ccc;
@@ -54,11 +54,11 @@ nav ul li a {
 }
 
 
-ul{
+ul {
 	list-style:none;
 }
 
-#main{
+#main {
 	width: 960px;
 	background-color: #fff;
 	padding: 30px;
@@ -66,7 +66,7 @@ ul{
 	border: 1px solid #ddd;
 }
 
-#title{
+#title {
     color: #4aaaa5;
     border-bottom:	3px solid #dddddd;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
@@ -76,7 +76,7 @@ ul{
 		text-align: left;
   }
 
-#headshot{
+#headshot {
   float: left;
   margin: 30px;
 }
@@ -87,7 +87,7 @@ p {
 	margin-block-end: 1em;
 }
 
-.space{
+.space {
 	width: 1040px;
   margin: 0 auto;
   clear: both;
@@ -110,67 +110,44 @@ p {
 	vertical-align: middle;
   }
 
-	#pic1{
-		position: relative;
-		display: inline;
+	.pic1 {
+		padding-right: 40px;
 	}
 
-  #pic2{
-		padding: 0 40px;
-		position: relative;
-		display: inline;
-  }
-
-	#pic3{
-		position: relative;
-		display: inline;
+	.pic3 {
+		padding-right: 40px;
 	}
 
-  #pic4{
-		padding: 0 40px;
+	.projectl {
 		position: relative;
-		display: inline;
-  }
+		display: inline-block;
+	}
 
-	a#pic1
-	h3{
+	.projectr {
+		position: relative;
+		display: inline-block;
+	}
+
+	a.projectr
+	h3 {
 		background-color: #4aaaa5;
     position: absolute;
-    bottom: -80px;
-    width: 98%;
+    bottom: 20px;
+    width: 100%;
     text-align: center;
 		color: white;
 	}
 
-	/* a#pic2
-	h3{
+	a.projectl
+	h3 {
 		background-color: #4aaaa5;
     position: absolute;
-    bottom: -80px;
-    width: 98%;
+    bottom: 20px;
+    width: 200px;
     text-align: center;
 		color: white;
-	} */
-
-	a#pic3
-	h3{
-		background-color: #4aaaa5;
-    position: absolute;
-    bottom: -80px;
-    width: 98%;
-    text-align: center;
-		color: white;
+		
 	}
-
-	/* a#pic4
-	h3{
-		background-color: #4aaaa5;
-    position: absolute;
-    bottom: -80px;
-    width: 98%;
-    text-align: center;
-		color: white;
-	} */
 
 /* Contact CSS taken and changed from W3 Schools */
 input[type=text], select, textarea {
@@ -199,7 +176,7 @@ input[type=text], select, textarea {
 	background-color: purple;
   }
 
-#footer{
+#footer {
   position: fixed;
   left: 0;
   bottom: 0;
