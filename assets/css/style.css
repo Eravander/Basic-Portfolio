@@ -110,9 +110,9 @@ p {
 	vertical-align: middle;
   }
 
-	#pic1{
+	.project{
 		position: relative;
-		display: inline;
+		display: inline-block;
 	}
 
   #pic2{
@@ -132,12 +132,12 @@ p {
 		display: inline;
   }
 
-	a#pic1
+	a.project
 	h3{
 		background-color: #4aaaa5;
     position: absolute;
-    bottom: -80px;
-    width: 98%;
+    bottom: 20px;
+    width: 100%;
     text-align: center;
 		color: white;
 	}
